@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parents' Perceptions of Online Gaming</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            text-align: center;
+            color: #667eea;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #666;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+
+        .insight {
+            margin-bottom: 30px;
+            padding: 20px;
+            border-radius: 10px;
+            background: #f8f9fa;
+        }
+
+        .insight h2 {
+            color: #764ba2;
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+        .stat-box {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        }
+
+        .stat-number {
+            font-size: 48px;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .stat-label {
+            font-size: 16px;
+            color: #333;
+            max-width: 60%;
+        }
+
+        .bar-container {
+            background: #e0e0e0;
+            border-radius: 10px;
+            height: 30px;
+            margin: 10px 0;
+            overflow: hidden;
+        }
+
+        .bar {
+            height: 100%;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .bar-high { background: #e74c3c; }
+        .bar-medium { background: #f39c12; }
+        .bar-low { background: #27ae60; }
+        .bar-agree { background: #3498db; }
+        .bar-disagree { background: #e74c3c; }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .mini-stat {
+            text-align: center;
+            padding: 15px;
+            background: #667eea;
+            color: white;
+            border-radius: 10px;
+        }
+
+        .mini-stat .number {
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        .mini-stat .label {
+            font-size: 14px;
+            margin-top: 5px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #666;
+            font-size: 12px;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
+
+        .emoji {
+            font-size: 40px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Parents' Perceptions of Online Gaming</h1>
+        <p class="subtitle">Survey of 100 parents about their children's gaming habits and concerns</p>
+
+        <!-- Insight 1: Addiction Fear -->
+        <div class="insight">
+            <h2><span class="emoji">😰</span>Top Concern: Addiction</h2>
+            <div class="stat-box">
+                <div class="stat-number">57%</div>
+                <div class="stat-label">of parents have HIGH fear about online gaming addiction</div>
+            </div>
+            <div class="bar-container">
+                <div class="bar bar-high" style="width: 57%">High Fear (57%)</div>
+            </div>
+            <div class="bar-container">
+                <div class="bar bar-medium" style="width: 37%">Medium Fear (37%)</div>
+            </div>
+            <div class="bar-container">
+                <div class="bar bar-low" style="width: 6%">Low Fear (6%)</div>
+            </div>
+        </div>
+
+        <!-- Insight 2: Academic Impact -->
+        <div class="insight">
+            <h2><span class="emoji">📚</span>Academic Performance Worries</h2>
+            <div class="stat-box">
+                <div class="stat-number">52%</div>
+                <div class="stat-label">fear gaming will affect their child's academic performance</div>
+            </div>
+            <div class="bar-container">
+                <div class="bar bar-high" style="width: 52%">High Fear (52%)</div>
+            </div>
+            <div class="bar-container">
+                <div class="bar bar-medium" style="width: 39%">Medium Fear (39%)</div>
+            </div>
+        </div>
+
+        <!-- Insight 3: Universal Supervision -->
+        <div class="insight">
+            <h2><span class="emoji">👨‍👩‍👧‍👦</span>Universal Call for Supervision</h2>
+            <div class="stat-box">
+                <div class="stat-number">97%</div>
+                <div class="stat-label">believe rules are necessary for kids' gaming behavior</div>
+            </div>
+            <div class="bar-container">
+                <div class="bar bar-agree" style="width: 97%">Rules Necessary (97%)</div>
+            </div>
+        </div>
+
+        <!-- Insight 4: Mixed Perceptions -->
+        <div class="insight">
+            <h2><span class="emoji">🤔</span>Mixed Views on Benefits</h2>
+            <div class="grid-2">
+                <div class="mini-stat">
+                    <div class="number">55%</div>
+                    <div class="label">Agree it's a stress-buster</div>
+                </div>
+                <div class="mini-stat">
+                    <div class="number">39%</div>
+                    <div class="label">Agree it's beneficial</div>
+                </div>
+            </div>
+            <div class="grid-2" style="margin-top: 15px;">
+                <div class="mini-stat" style="background: #764ba2;">
+                    <div class="number">72%</div>
+                    <div class="label">Disagree it helps socialize</div>
+                </div>
+                <div class="mini-stat" style="background: #764ba2;">
+                    <div class="number">87%</div>
+                    <div class="label">See it as a distraction</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Insight 5: Family Impact -->
+        <div class="insight">
+            <h2><span class="emoji">🏠</span>Family Dynamics Impact</h2>
+            <div class="stat-box">
+                <div class="stat-number">63%</div>
+                <div class="stat-label">report medium-to-high frustrations due to gaming behavior</div>
+            </div>
+            <div class="bar-container">
+                <div class="bar bar-medium" style="width: 40%">Medium (40%)</div>
+            </div>
+            <div class="bar-container">
+                <div class="bar bar-high" style="width: 22%">High (22%)</div>
+            </div>
+        </div>
+
+        <!-- Insight 6: Parental Engagement -->
+        <div class="insight">
+            <h2><span class="emoji">🎮</span>Parental Engagement Gap</h2>
+            <div class="grid-2">
+                <div class="mini-stat">
+                    <div class="number">61%</div>
+                    <div class="label">Have played games themselves</div>
+                </div>
+                <div class="mini-stat" style="background: #764ba2;">
+                    <div class="number">48%</div>
+                    <div class="label">Play WITH their kids</div>
+                </div>
+            </div>
+            <p style="margin-top: 15px; color: #666; font-size: 14px;">
+                Despite personal gaming experience, many parents don't engage with their children's gaming activities
+            </p>
+        </div>
+
+        <div class="footer">
+            Based on survey of 100 parents | Data Analysis by Parthib Dey
+        </div>
+    </div>
+</body>
+</html>
